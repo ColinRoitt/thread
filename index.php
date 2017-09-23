@@ -94,13 +94,18 @@ try{
                 <div class="row">
                     <div class="col-md-8 col-md-offset-2">
                         <h1 class="text-center">A new way to rant on Twitter</h1>
-                        <textarea placeholder= <? echo $msgToShow ?> style="width:100%;height:346.8px;"></textarea><a class="btn btn-default action-button" role="button" href="#">tweet </a></div>
+                        <textarea id='tweetContent' placeholder= <? echo $msgToShow ?> style="width:100%;height:346.8px;"></textarea>
+                        <a id='tweet' class="btn btn-default action-button" role="button" href="#">tweet </a>
+                        <a id='charCount'>Characters: 0</a>
+                    </div>
                 </div>
             </div>
         </div>
     </div>
     <script src="assets/js/jquery.min.js"></script>
     <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+    <script src="assets/js/tweet.js"></script>
+    <script src="assets/js/updateCharCount.js"></script>
 </body>
 
 </html>
