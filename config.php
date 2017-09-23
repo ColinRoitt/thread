@@ -7,9 +7,9 @@ return [
     'consumer_secret'   => $consumer_secret,
 
     // callbacks for your application
-    'url_login'         => 'http://dev.colinroitt.uk/spicytake/twitter_login.php',
-    'url_callback'      => 'http://dev.colinroitt.uk/spicytake/twitter_callback.php',
-    'url_tweet'     => 'http://dev.colinroitt.uk/spicytake/twitter_tweet.php'
+    'url_login'         => 'http://dev.colinroitt.uk/thread/twitter_login.php',
+    'url_callback'      => 'http://dev.colinroitt.uk/thread/',
+    //'url_tweet'     => 'http://dev.colinroitt.uk/spicytake/twitter_tweet.php'
 ];
 
 ?>
