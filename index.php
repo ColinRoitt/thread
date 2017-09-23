@@ -94,7 +94,7 @@ try{
                 <div class="row">
                     <div class="col-md-8 col-md-offset-2">
                         <h1 class="text-center">A new way to rant on Twitter</h1>
-                        <textarea id='tweetContent' placeholder= <? echo $msgToShow ?> style="width:100%;height:346.8px;"></textarea>
+                        <textarea id='tweetContent' placeholder= <? echo $msgToShow ?> ></textarea>
                         <a id='tweet' class="btn btn-default action-button" role="button" href="#">tweet </a>
                         <a id='charCount'>Characters: 0</a>
                     </div>
